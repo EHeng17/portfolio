@@ -22,7 +22,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
           {/* Github Button */}
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div 
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => source_code_link == "/" ? window.scrollTo(0, 0) : window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img 
@@ -63,14 +63,14 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] leading-[30px]'
         >
           These are my personal projects that showcase my skills and experience through real-world examples of my work. Each project will be briefly described with links to the code repositories. It showcases my ability to solve problems and work with different technologies, and manage projects effectively
         </motion.p>
       </div>
 
       <div
-        className='mt-20 flex flex-wrap gap-7'
+        className='mt-20 flex flex-wrap gap-7 justify-center'
       >
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project}/>

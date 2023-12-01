@@ -250,7 +250,7 @@ const projects = [
       },
     ],
     image: portfolioHomePage,
-    source_code_link: "https://github.com/",
+    source_code_link: "/",
   },
   {
     name: "Airport Simulation (CLI)",
