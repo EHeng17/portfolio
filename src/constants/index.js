@@ -14,17 +14,21 @@ import {
   csharp,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   python,
   jupyter,
   tensorflow,
-  data
+  data,
+
+  // Company Icons
+  fusionex,
+  apu,
+  whenso,
+
+  // Project Pictures
+  exledgeHome,
+  exledge,
+  portfolioHomePage,
+  airportSimulationMain,
 } from "../assets";
 
 const navLinks = [
@@ -119,122 +123,147 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Whenso Labs",
+    icon: whenso,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - August 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    technologies: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "angular.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javaScript",
+        color: "yellow-text-gradient",
+      },
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer Intern",
+    company_name: "Fusionex Group",
+    icon: fusionex,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2023 - November 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    technologies: [
+      {
+        name: "vue.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".net",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "yellow-text-gradient",
+      },
+    ],
+  },
+  {
+    title: "CTI Research And Development Assistant",
+    company_name: "Asia Pacific University",
+    icon: apu,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    technologies: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "angular.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "power bi",
+        color: "yellow-text-gradient",
+      },
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ex Ledge",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A responsive web application inspired by Stack Overflow and Reddit that allows students to exchange knowledge by asking questions or answering a wide range of topics",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html/css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: exledgeHome,
+    source_code_link: "https://github.com/JacksonTai/ex-ledge",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A responsive personal portfolio to showcase who I am, my interests, projects, achievements, and my professional contacts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolioHomePage,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Airport Simulation (CLI)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A multithreaded airport simulation in Java. This project utilizes concurrency concepts such as threads, locks, semaphores, atomic variables, and queues",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airportSimulationMain,
+    source_code_link: "https://github.com/EHeng17/java-concurrent-airport",
   },
 ];
 

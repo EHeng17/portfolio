@@ -26,14 +26,16 @@ import python from "./tech/python.png"
 import jupyter from "./tech/jupyter.png"
 import tensorflow from "./tech/tensorflow.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// Company Icons
+import fusionex from "./company/fusionex.png"
+import apu from "./company/apu.png"
+import whenso from "./company/whenso.jpeg"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// Projects
+import exledgeHome from "./projects/ExLedge/homepage.png"
+import exledge from "./projects/ExLedge/exledge.png"
+import portfolioHomePage from './projects/Portfolio/portfolioHomepage.png'
+import airportSimulationMain from './projects/AirportSimulator/main.png'
 
 export {
   logo,
@@ -55,15 +57,22 @@ export {
   tailwind,
   cplusplus,
   csharp,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   python,
   jupyter,
   tensorflow,
-  data
+  data,
+
+  // Company Icons
+  fusionex,
+  apu,
+  whenso,
+
+  // Project Pictures
+  exledgeHome,
+  exledge,
+
+  portfolioHomePage,
+
+  airportSimulationMain,
+
 };

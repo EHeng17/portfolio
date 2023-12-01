@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 
@@ -11,14 +10,16 @@ import { fadeIn, textVariant } from '../utils/motion'
 const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+      <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full">
         <div className='relative w-full h-[230px]'>
+          {/* Thumbnail */}
           <img 
             src={image}
             alt={name}
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full rounded-2xl'
           />
 
+          {/* Github Button */}
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div 
               onClick={() => window.open(source_code_link, "_blank")}
