@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import data from "./data.png"
 
 // Software/Web
 import css from "./tech/css.png";
@@ -63,5 +64,6 @@ export {
   tripguide,
   python,
   jupyter,
-  tensorflow
+  tensorflow,
+  data
 };

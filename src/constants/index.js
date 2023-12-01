@@ -23,7 +23,8 @@ import {
   tripguide,
   python,
   jupyter,
-  tensorflow
+  tensorflow,
+  data
 } from "../assets";
 
 const navLinks = [
@@ -47,19 +48,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Data Scientist",
+    icon: data,
   },
 ];
 
+// Not used at the moment
 const technologies = [
   {
     name: "HTML 5",
@@ -75,7 +73,7 @@ const technologies = [
   },
   {
     name: "React JS",
-    icon: reactjs,
+  icon: reactjs,
   },
   {
     name: "Tailwind CSS",
@@ -174,33 +172,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Car Rent",
@@ -267,4 +238,22 @@ const projects = [
   },
 ];
 
-export { navLinks, services, technologies, experiences, testimonials, projects };
+const contactMethods = [
+  {
+    name: "faGithub",
+    link: "https://github.com/EHeng17",
+    type: "link"
+  },
+  {
+    name: "faLinkedin",
+    link: "https://www.linkedin.com/in/chuaeheng/",
+    type: "link"
+  },
+  {
+    name: "faEnvelope",
+    link: "3eheng2988@gmail.com",
+    type: "email"
+  }
+]
+
+export { navLinks, services, technologies, experiences, projects, contactMethods };
