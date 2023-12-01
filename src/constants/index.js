@@ -4,17 +4,16 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
+  cplusplus,
+  csharp,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +21,9 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  python,
+  jupyter,
+  tensorflow
 } from "../assets";
 
 const navLinks = [
@@ -73,16 +74,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,12 +86,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "csharp",
+    icon: csharp,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "cplusplus",
+    icon: cplusplus,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "git",
@@ -109,9 +106,17 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "python",
+    icon: python
   },
+  {
+    name: "jupyter",
+    icon: jupyter
+  },
+  {
+    name: "tensorflow",
+    icon: tensorflow
+  }
 ];
 
 const experiences = [
