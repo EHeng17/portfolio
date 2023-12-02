@@ -76,7 +76,17 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project}/>
         ))}
       </div>
-
+      
+      {/* See more button */}
+      {projects.length > 2 ? (
+        <div className='w-full flex justify-center mt-8'>
+          <div 
+            className="text-center p-4 bg-tertiary text-white rounded-2xl cursor-pointer hover:bg-black-200 w-1/4"
+          >
+            See More
+          </div>        
+        </div>
+      ) : null} 
     </>
   )
 }
