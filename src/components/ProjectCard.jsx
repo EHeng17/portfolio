@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+
 import { projects } from "../constants";
 
 function ProjectCard({cardId, setCard}) {
-    const { id, name, description, tags, image, source_code_link } = projects.find(project => project.id === cardId);
+    const { id, name, image } = projects.find(project => project.id === cardId);
 
     return (
       <div className="flex justify-center">
@@ -18,14 +21,19 @@ function ProjectCard({cardId, setCard}) {
         />
 
         {/* Card */}
-        <div className="top-1/2 transform -translate-y-1/2 w-full relative block max-w-[700px] w-[90vw] pb-[35px] px-[35px]" style={{position: "fixed"}}>
-          <motion.div className="relative rounded-lg bg-tertiary overflow-hidden w-full h-full mx-auto" layoutId={`project-${id}`}>
+        <div className="top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 w-full relative block max-w-[700px] w-[90vw] pb-[35px] px-[35px]" style={{position: "fixed"}}>
+          <motion.div className="relative rounded-lg bg-tertiary overflow-hidden h-full mx-auto" layoutId={`project-${id}`}>
             <motion.div
               className="card-image-container"
             >
-              <img className="card-image" src={image} alt={name} />
+              <Carousel showArrows={true} showThumbs={false}>
+                <div>
+                  <img style={{height: "50vh"}} src={image} alt={name}/>
+                  <p className="legend">{name}</p>
+                </div>
+              </Carousel>
             </motion.div>
-            <motion.div
+            {/* <motion.div
               className="title-container"
             >
               <span className="category">Hello Category</span>
@@ -33,7 +41,7 @@ function ProjectCard({cardId, setCard}) {
             </motion.div>
             <motion.div className="content-container" animate>
               Hellur Content
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>

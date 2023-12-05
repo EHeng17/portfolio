@@ -35,12 +35,18 @@ function Projects() {
       </motion.div>
 
       {/* Description */}
-      <div className='w-full flex'>
+      <div className='w-full flex flex-col'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] leading-[30px]'
           >
           These are my personal projects that showcase my skills and experience through real-world examples of my work. Each project will be briefly described with links to the code repositories. It showcases my ability to solve problems and work with different technologies, and manage projects effectively
+        </motion.p>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-6 text-secondary text-[17px] leading-[30px]'
+          >
+          Click each card to view more images of the project
         </motion.p>
       </div>
 
