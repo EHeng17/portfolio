@@ -6,7 +6,7 @@ import Projects from './Projects';
 const App = () => {
   return (
     <div>
-      <div className='relative z-0 bg-primary'>
+      <div className='z-0 bg-primary'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />

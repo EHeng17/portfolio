@@ -29,6 +29,7 @@ import {
   exledge,
   portfolioHomePage,
   airportSimulationMain,
+  dataStructureHome,
 } from "../assets";
 
 const navLinks = [
@@ -211,6 +212,7 @@ const experiences = [
 
 const projects = [
   {
+    id: 0,
     name: "Ex Ledge",
     description:
       "A responsive web application inspired by Stack Overflow and Reddit that allows students to exchange knowledge by asking questions or answering a wide range of topics",
@@ -236,6 +238,7 @@ const projects = [
     source_code_link: "https://github.com/JacksonTai/ex-ledge",
   },
   {
+    id: 1,
     name: "Portfolio",
     description:
       "A responsive personal portfolio to showcase who I am, my interests, projects, achievements, and my professional contacts.",
@@ -253,6 +256,7 @@ const projects = [
     source_code_link: "/",
   },
   {
+    id: 2,
     name: "Airport Simulation (CLI)",
     description:
       "A multithreaded airport simulation in Java. This project utilizes concurrency concepts such as threads, locks, semaphores, atomic variables, and queues",
@@ -264,6 +268,20 @@ const projects = [
     ],
     image: airportSimulationMain,
     source_code_link: "https://github.com/EHeng17/java-concurrent-airport",
+  },
+  {
+    id: 3,
+    name: "University Recommendation System (Data Structure)",
+    description:
+      "Built with various data structure algoritms to improve speed in terms of sorting and searching for university information. Trees, merge sort, quick sort, linear search, and binary search is implemented.",
+    tags: [
+      {
+        name: "c++",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: dataStructureHome,
+    source_code_link: "https://github.com/tanweikang02/dstr-project",
   },
 ];
 

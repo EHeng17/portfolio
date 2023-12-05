@@ -36,6 +36,7 @@ import exledgeHome from "./projects/ExLedge/homepage.png"
 import exledge from "./projects/ExLedge/exledge.png"
 import portfolioHomePage from './projects/Portfolio/portfolioHomepage.png'
 import airportSimulationMain from './projects/AirportSimulator/main.png'
+import dataStructureHome from './projects/DataStructure/main.png'
 
 export {
   logo,
@@ -74,5 +75,7 @@ export {
   portfolioHomePage,
 
   airportSimulationMain,
+
+  dataStructureHome,
 
 };
