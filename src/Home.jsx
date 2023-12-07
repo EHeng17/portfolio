@@ -1,4 +1,4 @@
-import { About, Hero, Experience, Works, Contact, StarsCanvas } from './components';
+import { About, Hero, Experience, Works, Contact, StarsCanvas, Podium } from './components';
 
 function Home() {
   return (
@@ -9,6 +9,7 @@ function Home() {
         <About />
         <Experience />
         <Works />
+        <Podium />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

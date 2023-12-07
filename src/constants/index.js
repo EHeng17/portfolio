@@ -285,6 +285,10 @@ const projects = [
   },
 ];
 
+const achievements = [
+
+];
+
 const contactMethods = [
   {
     name: "faGithub",
@@ -303,4 +307,4 @@ const contactMethods = [
   }
 ]
 
-export { navLinks, services, technologies, experiences, projects, contactMethods };
+export { navLinks, services, technologies, experiences, projects, contactMethods, achievements };

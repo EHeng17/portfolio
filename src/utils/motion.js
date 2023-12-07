@@ -86,3 +86,20 @@ export const textVariant = (delay) => {
       },
     };
   };
+
+  export const podiumAnimation = (delay, height) => {
+    return {
+      hidden: {
+        opacity: 0, 
+        height: 0
+      },
+      show: {
+        opacity: 1, 
+        height: height,
+        transition: {
+          duration: 1, 
+          delay: delay
+        }
+      }
+    }
+  }

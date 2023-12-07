@@ -33,15 +33,6 @@ function ProjectCard({cardId, setCard}) {
                 </div>
               </Carousel>
             </motion.div>
-            {/* <motion.div
-              className="title-container"
-            >
-              <span className="category">Hello Category</span>
-              <h2>{name}</h2>
-            </motion.div>
-            <motion.div className="content-container" animate>
-              Hellur Content
-            </motion.div> */}
           </motion.div>
         </div>
       </div>
