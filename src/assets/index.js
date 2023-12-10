@@ -38,6 +38,13 @@ import portfolioHomePage from './projects/Portfolio/portfolioHomepage.png'
 import airportSimulationMain from './projects/AirportSimulator/main.png'
 import dataStructureHome from './projects/DataStructure/main.png'
 
+// Podium Pictures
+import xylem from "./podium/xylem.png"
+import awantec from "./podium/awantec.png"
+import makeITSafe from "./podium/makeITSafe.jpeg"
+import tuneProtect from "./podium/tuneProtect.png"
+import tcs from "./podium/tcs.jpg"
+
 export {
   logo,
   backend,
@@ -78,4 +85,10 @@ export {
 
   dataStructureHome,
 
+  // Podium Pictures
+  xylem,
+  awantec,
+  makeITSafe,
+  tuneProtect,
+  tcs
 };

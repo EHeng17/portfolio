@@ -30,6 +30,14 @@ import {
   portfolioHomePage,
   airportSimulationMain,
   dataStructureHome,
+
+  // Podium Pictures
+  xylem,
+  awantec,
+  makeITSafe,
+  tuneProtect,
+  tcs
+
 } from "../assets";
 
 const navLinks = [
@@ -286,7 +294,36 @@ const projects = [
 ];
 
 const achievements = [
-
+  {
+    placement: 1,
+    image: xylem,
+    name: "Xylem REACH Student Hackathon 2021"
+  },
+  {
+    placement: 2,
+    image: makeITSafe,
+    name: "ASEAN MakeITSafe"
+  },
+  {
+    placement: 2,
+    image: tcs,
+    name: "TCS Sustainathon Malaysia"
+  },
+  {
+    placement: 3,
+    image: tcs,
+    name: "TCS Sustainathon ASEAN"
+  },
+  {
+    placement: 4,
+    image: awantec,
+    name: "Google Appsheet Hackathon 2023"
+  },
+  {
+    placement: 10,
+    image: tuneProtect,
+    name: "Tune Protect Hackathon 2023"
+  },
 ];
 
 const contactMethods = [
