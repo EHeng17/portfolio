@@ -27,9 +27,8 @@ function Podium() {
 
             <motion.div
               variants={podiumAnimation(0.2, 60)}
-              style={{backgroundColor: "green"}}
-              className='w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
-              >
+              className='violet-gradient w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
+            >
               <p className='font-bold'>5th</p>
             </motion.div>
           </div>
@@ -43,9 +42,8 @@ function Podium() {
             ))}
             <motion.div
               variants={podiumAnimation(0.1, 100)}
-              style={{ backgroundColor: "brown"}}
-              className='w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
-              >
+              className='bronze-gradient w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
+            >
               <p className='font-bold'>3rd</p>
             </motion.div>
           </div>
@@ -59,8 +57,7 @@ function Podium() {
             ))}
             <motion.div
               variants={podiumAnimation(0.3, 150)}
-              style={{backgroundColor: "gold"}}
-              className='w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
+              className='gold-gradient w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
             >
               <p className='font-bold'>1st</p>
             </motion.div>
@@ -76,9 +73,8 @@ function Podium() {
 
             <motion.div
               variants={podiumAnimation(0.2, 120)}
-              style={{backgroundColor: "silver"}}
-              className='w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
-              >
+              className='silver-gradient w-[70px] mr-[10px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
+            >
               <p className='font-bold'>2nd</p>
             </motion.div>
           </div>
@@ -93,9 +89,8 @@ function Podium() {
 
             <motion.div
               variants={podiumAnimation(0.2, 80)}
-              style={{backgroundColor: "blue"}}
-              className='w-[70px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
-              >
+              className='green-pink-gradient w-[70px] rounded-tl-lg rounded-tr-lg flex items-end justify-center py-1'
+            >
               <p className='font-bold'>4th</p>
             </motion.div>
           </div>

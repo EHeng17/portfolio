@@ -36,17 +36,30 @@
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+  background: -webkit-linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
 }
 
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.gold-gradient {
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+.silver-gradient {
+  background: "#2c3e50";
+  background: linear-gradient(90.13deg, #bdc3c7 1.9%, #2c3e50 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #bdc3c7 1.9%, #2c3e50 97.5%);  
+}
+
+.bronze-gradient {
+  background: "#EB5757";
+  background: linear-gradient(-90deg, #EB5757 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg, #EB5757 0%, rgba(60, 51, 80, 0) 100%);  
 }
 
 .orange-text-gradient {
