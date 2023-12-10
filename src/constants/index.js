@@ -302,17 +302,17 @@ const achievements = [
   {
     placement: 2,
     image: makeITSafe,
-    name: "ASEAN MakeITSafe"
+    name: "ASEAN MakeITSafe 2022"
   },
   {
     placement: 2,
     image: tcs,
-    name: "TCS Sustainathon Malaysia"
+    name: "TCS Sustainathon Malaysia 2022"
   },
   {
     placement: 3,
     image: tcs,
-    name: "TCS Sustainathon ASEAN"
+    name: "TCS Sustainathon ASEAN 2022"
   },
   {
     placement: 4,

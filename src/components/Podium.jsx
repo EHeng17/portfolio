@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { SectionWrapper } from '../hoc'
+import { Tooltip } from '@mui/material'
 
 import { styles } from "../styles"
 import { textVariant, podiumAnimation } from '../utils/motion'
@@ -21,7 +22,9 @@ function Podium() {
           <div>
             {achievements.map((achievement, index) => (
               achievement.placement > 4 ? 
+              <Tooltip key={index} title={achievement.name} placement="top">
                 <img key={index} src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+              </Tooltip>
               : null
             ))}
 
@@ -37,7 +40,9 @@ function Podium() {
           <div>
             {achievements.map((achievement, index) => (
               achievement.placement == 3 ? 
+              <Tooltip key={index} title={achievement.name} placement="top">
                 <img key={index} src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+              </Tooltip>
               : null
             ))}
             <motion.div
@@ -51,8 +56,10 @@ function Podium() {
           {/* First Place */}
           <div>
             {achievements.map((achievement, index) => (
-              achievement.placement == 1 ? 
-                <img key={index} src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+              achievement.placement == 1 ?
+                <Tooltip key={index} title={achievement.name} placement="top">
+                  <img src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+                </Tooltip>
               : null
             ))}
             <motion.div
@@ -67,7 +74,9 @@ function Podium() {
           <div>
             {achievements.map((achievement, index) => (
               achievement.placement == 2 ? 
+              <Tooltip key={index} title={achievement.name} placement="top">
                 <img key={index} src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+              </Tooltip>
               : null
             ))}
 
@@ -83,7 +92,9 @@ function Podium() {
           <div>
             {achievements.map((achievement, index) => (
               achievement.placement == 4 ? 
+              <Tooltip key={index} title={achievement.name} placement="top">
                 <img key={index} src={achievement.image} className='object-cover my-5 rounded-full w-[70px] h-[70px]'/> 
+              </Tooltip>
               : null
             ))}
 
